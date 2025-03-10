@@ -6,6 +6,9 @@ edition = "2021"
 [dependencies]
 
 [workspace]
+resolver = "2"
 members = [
+    "crates/bevy_jolt",
+    "crates/bevy_jolt/jolt_sys",
     "crates/bevy_prefab",
 ]
